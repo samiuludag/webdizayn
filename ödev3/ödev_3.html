@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Fenerbahçe Kadro Tablosu</title>
+
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background: #001a4d;
+      color: #ffeb3b;
+      text-align: center;
+      margin: 0;
+      padding: 20px 0;
+    }
+
+    .logo{
+      width: 140px;
+      display: block;
+      margin: auto;
+    }
+
+    table{
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background: white;
+      color: #001a4d;
+    }
+
+    th, td{
+      border: 1px solid #0033a0;
+      padding: 10px;
+    }
+
+    th{
+      background: #ffeb3b;
+    }
+
+    .girdi{
+      width: 100%;
+      padding: 6px;
+      border: 1px solid #0033a0;
+    }
+
+    .oyuncu_kutu{
+      background: #eef2f5;
+      font-weight: bold;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="thumb2-4k-fenerbahce-3d-logo-super-lig-blue-3d-background-soccer.jpg" class="logo" alt="Fenerbahçe Logosu">
+  <h1>Fenerbahçe Futbolcu Kayıt Tablosu</h1>
+
+  <table>
+    <tr>
+      <th>Futbolcu Ad-Soyad</th>
+      <th>Forma No</th>
+      <th>Pozisyon</th>
+      <th>İşlem</th>
+    </tr>
+
+    <tr>
+      <td><input class="girdi" placeholder="Ad Soyad"></td>
+      <td><input class="girdi" placeholder="No"></td>
+      <td>
+        <select class="girdi">
+          <option>Seçiniz</option>
+          <option>Bek</option>
+          <option>Defans</option>
+          <option>Orta Saha</option>
+          <option>Forvet</option>
+          <option>Kaleci</option>
+        </select>
+      </td>
+      <td><button style="padding:6px;">Ekle</button></td>
+    </tr>
+
+ 
+    <tr>
+      <td class="oyuncu_kutu">Sami Uludağ</td>
+      <td>99</td>
+      <td>Kanat</td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td class="oyuncu_kutu">Jhon Duran</td>
+      <td>10</td>
+      <td>Forvet</td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td class="oyuncu_kutu">Fred</td>
+      <td>35</td>
+      <td>Orta Saha</td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td class="oyuncu_kutu">Ederson</td>
+      <td>31</td>
+      <td>Orta Saha</td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td class="oyuncu_kutu">Edin Džeko</td>
+      <td>9</td>
+      <td>Forvet</td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td class="oyuncu_kutu">Ferdi Kadıoğlu</td>
+      <td>7</td>
+      <td>Bek</td>
+      <td></td>
+    </tr>
+
+  </table>
+
+</body>
+</html>
