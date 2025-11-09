@@ -1,0 +1,88 @@
+  body {
+            font-family: Arial, sans-serif;
+            background-color: wheat;
+        }
+
+        .kapsayici {
+            width: 50%;
+            margin: auto;
+            
+        }
+
+        .F_kutu {
+            border: 1px solid #555;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 6px;
+            background-color: rgb(197, 159, 33);
+        }
+
+        .L_kutu {
+            border: 1px solid #555;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 6px;
+            background-color: rgb(194, 216, 50);
+        }
+        ul {
+
+            border: 1px solid black;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 6px;
+            background-color: white;
+        }
+        ol{
+
+            border: 1px solid black;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 6px;
+            background-color: white;
+             
+
+        }
+
+        .T_kutu {
+
+            border: 1px solid black;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 6px;
+            background-color: rgb(213, 146, 21);
+
+            
+        }
+
+       
+
+        th ,td{
+
+            padding: 10px;
+            margin-top: 20px;
+            
+            border: 1px solid black;
+            background-color: white;
+
+
+        }
+        
+
+    form input {
+            margin: 5px;
+            background-color: wheat;
+            
+        }
+        form{
+
+            background-color: white;
+            margin-top: 20px;
+            padding: 15px;
+
+        }
+        h1{
+            background-color: white;
+        }
+          h2{
+            background-color: white;
+        }
